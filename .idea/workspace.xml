@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="303ccc50-aa5e-4f54-be84-fa30f99f558a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lemonade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LemonadeStand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/LemonadeStandTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/LemonadeTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lemonade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lemonade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LemonadeStand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LemonadeStand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gitpuleo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/gitpuleo/software-dev-course-oop-2.git&quot;,
+    &quot;accountId&quot;: &quot;9fd1cfb0-184b-4812-b41f-31c0ee2af8ff&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -42,12 +48,15 @@
   "keyToString": {
     "JUnit.All in software-dev-course-oop-2.executor": "Run",
     "JUnit.LemonadeStandTests.executor": "Run",
+    "JUnit.LemonadeStandTests.testSellLemonade.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/mikel/projects/java-new-curriculum/software-dev-course-oop-2/pom.xml"
+    "last_opened_file_path": "C:/Users/nfpul/Desktop/launchcode101/Unit-2/practice/method overloading and static methods"
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.All in software-dev-course-oop-2">
@@ -74,9 +83,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LemonadeStandTests.testSellLemonade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="software-dev-course-oop-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.LemonadeStandTests" />
+      <option name="METHOD_NAME" value="testSellLemonade" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in software-dev-course-oop-2" />
+        <item itemvalue="JUnit.LemonadeStandTests.testSellLemonade" />
         <item itemvalue="JUnit.LemonadeStandTests" />
       </list>
     </recent_temporary>

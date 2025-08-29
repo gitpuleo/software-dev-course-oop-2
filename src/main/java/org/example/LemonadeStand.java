@@ -63,6 +63,21 @@ public class LemonadeStand {
         }
     }
 
+    public boolean sellLemonade(int lemons, int sugar, int ice) {
+        Lemonade customLemonade = new Lemonade();
+
+        this.lemons = lemons;
+        this.sugar = sugar;
+        this.ice = ice;
+
+        if (tryMakingLemonade(customLemonade) != null) {
+            money += calculateSale(customLemonade);
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     // Create an overloaded method for sellLemonade that takes three arguments: lemons, sugar, and ice.
     // This method should create a new Lemonade object with the given arguments and then attempt to make the lemonade.
     // If the lemonade is successfully made, the method should add the sale amount to the money field and return true.
